@@ -9,6 +9,9 @@
 </head>
 <body>
     <header><h1>BatCipher</h1></header>
-    <main></main>    
+    <main>
+
+    </main>
+    <footer><p>by azazel</p></footer>    
 </body>
 </html>

@@ -46,3 +46,19 @@ main {
 	height: 460px;
 	background-color: var(--second-background);
 }
+
+footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	width: 100%;
+	min-width: 320px;
+	height: 70px;
+	background-color: var(--footer);
+}
+
+footer p {
+	font-size: 2.4rem;
+	color: var(--other);
+}
