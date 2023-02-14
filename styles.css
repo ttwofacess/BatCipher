@@ -1,0 +1,20 @@
+:root {
+	/*Colores*/
+	--first background: #969ba2 ;	
+	--second background: #e6dddc;
+	--lbl-input: #ff0c66;
+	--other: #fffcff;
+	--footer: #d0d167;
+	--just-white: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
