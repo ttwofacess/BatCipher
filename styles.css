@@ -29,3 +29,9 @@ header {
 	height: 110px;
 	background-color: var(--first-background);
 }
+
+header h1 {
+	font-size: 3.6rem;
+	font-weight: bold;
+	color: var(--other);
+}
