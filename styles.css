@@ -47,6 +47,18 @@ main {
 	background-color: var(--second-background);
 }
 
+main div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/*text-align: center;*/
+	height: 380px;
+	/*width: 430px;*/
+	min-width: 320px;
+	margin: auto;
+	border: 2px dashed blue;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
