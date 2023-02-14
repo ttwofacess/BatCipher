@@ -10,7 +10,12 @@
 <body>
     <header><h1>BatCipher</h1></header>
     <main>
-        <div class="divsBordeVisible"></div>
+        <div class="divsBordeVisible" id="divIndex" >
+            <ul>
+                <li>example 1</li>
+                <li>example 2</li>
+            </ul>
+        </div>
     </main>
     <footer><p>by azazel</p></footer>    
 </body>

@@ -63,10 +63,19 @@ main .divsBordeVisible{
 	display: block;
 	height: 430px;
 	width: 350px;
+	padding-top: 20px;
 	overflow: auto;
 	white-space: nowrap;
 	border-radius: 40px;
 	border: 2px solid var(--first-background);
+}
+
+main #divIndex ul {
+	height: 95%;
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	border: 2px solid blue;
 }
 
 footer {
