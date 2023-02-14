@@ -44,5 +44,5 @@ main {
 	width: 100%;
 	min-width: 320px;
 	height: 460px;
-	background-color: var(--lbl-input);
+	background-color: var(--second-background);
 }

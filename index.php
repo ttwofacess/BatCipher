@@ -9,6 +9,6 @@
 </head>
 <body>
     <header><h1>BatCipher</h1></header>
-    <main><p>hi!</p></main>    
+    <main></main>    
 </body>
 </html>
