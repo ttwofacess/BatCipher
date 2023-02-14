@@ -8,6 +8,6 @@
     <title>Home</title>
 </head>
 <body>
-    <header><h1>BatCipher</h1></header>
+    <main><p>hi!</p></main>    <header><h1>BatCipher</h1></header>
 </body>
 </html>

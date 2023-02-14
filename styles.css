@@ -35,3 +35,14 @@ header h1 {
 	font-weight: bold;
 	color: var(--other);
 }
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	min-width: 320px;
+	height: 460px;
+	background-color: var(--lbl-input);
+}
