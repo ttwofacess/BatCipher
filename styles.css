@@ -71,11 +71,33 @@ main .divsBordeVisible{
 }
 
 main #divIndex ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	height: 95%;
 	width: 90%;
 	margin: auto;
 	list-style: none;
-	border: 2px solid blue;
+	/*border: 2px solid blue;*/
+}
+
+main #divIndex ul li {           
+	/*margin-bottom: 70px;*/   
+	font-size: 3.2rem;
+}
+
+main #divIndex ul li:nth-child(2) {
+	margin-top: 150px;
+}
+
+main #divIndex ul li a {                                
+	border: 2px solid var(--just-white);
+	border-radius: 50px;
+	padding: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	color: var(--lbl-input);
+	background-color: var(--first-background);
 }
 
 footer {

@@ -12,8 +12,8 @@
     <main>
         <div class="divsBordeVisible" id="divIndex" >
             <ul>
-                <li>example 1</li>
-                <li>example 2</li>
+                <li><a href="#">Cifrar</a></li>
+                <li><a href="#">Descifrar</a></li>
             </ul>
         </div>
     </main>
