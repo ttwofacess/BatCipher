@@ -8,6 +8,6 @@
     <title>Home</title>
 </head>
 <body>
-    
+    <main><p>hi!</p></main>    
 </body>
 </html>
