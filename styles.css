@@ -56,7 +56,17 @@ main div {
 	/*width: 430px;*/
 	min-width: 320px;
 	margin: auto;
-	border: 2px dashed blue;
+	/*border: 2px dashed blue;*/
+}
+
+main .divsBordeVisible{
+	display: block;
+	height: 430px;
+	width: 350px;
+	overflow: auto;
+	white-space: nowrap;
+	border-radius: 40px;
+	border: 2px solid var(--first-background);
 }
 
 footer {
