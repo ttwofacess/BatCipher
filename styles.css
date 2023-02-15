@@ -104,6 +104,15 @@ main div .areasCif {
 	/*display: flex;*/
 	margin: auto;
 	width: 60%;
+	font-size: 3.2rem;
+	border: 2px solid var(--just-white);
+	border-radius: 15px;
+	color: var(--lbl-input);
+	background-color: var(--first-background);
+}
+
+main div .areasCif:focus-visible {     
+	outline: 2px solid var(--lbl-input);
 }
 
 footer {

@@ -13,10 +13,10 @@
         <form action="#">
         <div>
             <label for="msgToCif">Ingrese su mensaje</label>
-            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="5" required autofocus></textarea>
+            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="3" required autofocus></textarea>
 
             <label for="msgToDes">Mensaje cifrado</label>
-            <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="5"></textarea>
+            <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="3"></textarea>
         </div>
         </form>
     </main>
