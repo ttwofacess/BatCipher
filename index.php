@@ -12,7 +12,7 @@
     <main>
         <div class="divsBordeVisible" id="divIndex" >
             <ul>
-                <li><a href="#">Cifrar</a></li>
+                <li><a href="cifrando.php">Cifrar</a></li>
                 <li><a href="#">Descifrar</a></li>
             </ul>
         </div>
