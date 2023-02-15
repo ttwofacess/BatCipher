@@ -8,6 +8,6 @@
     <title>Cifrando</title>
 </head>
 <body>
-    
+    <header><h1>Cifrar un mensaje</h1></header>
 </body>
 </html>
