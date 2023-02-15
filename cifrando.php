@@ -9,5 +9,16 @@
 </head>
 <body>
     <header><h1>Cifrar un mensaje</h1></header>
+    <main>
+        <form action="#">
+        <div>
+            <label for="msgToCif">Ingrese su mensaje</label>
+            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="5" required autofocus></textarea>
+
+            <label for="msgToDes">Mensaje cifrado</label>
+            <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="5"></textarea>
+        </div>
+        </form>
+    </main>
 </body>
 </html>
