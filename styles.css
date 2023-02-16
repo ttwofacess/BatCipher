@@ -100,6 +100,12 @@ main #divIndex ul li a {
 	background-color: var(--first-background);
 }
 
+main div .lblCif {
+	font-size: 3rem;
+	font-weight: bold;
+	color: var(--footer);
+}
+
 main div .areasCif {
 	/*display: flex;*/
 	margin: auto;

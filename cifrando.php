@@ -12,10 +12,10 @@
     <main>
         <form action="#">
         <div>
-            <label for="msgToCif">Ingrese su mensaje</label>
+            <label for="msgToCif" class="lblCif">Ingrese su mensaje</label>
             <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="3" required autofocus></textarea>
 
-            <label for="msgToDes">Mensaje cifrado</label>
+            <label for="msgToDes" class="lblCif">Mensaje cifrado</label>
             <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="3"></textarea>
         </div>
         </form>
