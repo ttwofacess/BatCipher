@@ -121,6 +121,15 @@ main div .areasCif:focus-visible {
 	outline: 2px solid var(--lbl-input);
 }
 
+main div .actbtn {
+	margin: auto;
+	width: 100px;
+	font-size: 2.2rem;
+	/*padding: 5px;*/
+	border: 2px solid var(--lbl-input);
+	border-radius: 40px;
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
