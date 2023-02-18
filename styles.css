@@ -122,12 +122,15 @@ main div .areasCif:focus-visible {
 }
 
 main div .actbtn {
-	margin: auto;
+	margin: 20px auto 20px auto;
 	width: 100px;
-	font-size: 2.2rem;
+	font-size: 2.6rem;
+	font-weight: bold;
 	/*padding: 5px;*/
 	border: 2px solid var(--lbl-input);
 	border-radius: 40px;
+	background-color: var(--first-background);
+	color: var(--just-white);
 }
 
 footer {
