@@ -133,6 +133,18 @@ main div .actbtn {
 	color: var(--just-white);
 }
 
+.volver {
+	width: 90px;                      
+	margin: 10px auto 5px auto;
+	text-decoration: none;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border: 2px solid var(--lbl-input);
+	border-radius: 45px;
+	color: var(--footer);
+	background-color: var(--first-background);
+}
+
 footer {
 	display: flex;
 	flex-direction: column;

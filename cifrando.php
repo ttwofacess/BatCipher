@@ -21,6 +21,8 @@
             <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="3"></textarea>
         </div>
         </form>
+        <br />
+        <a class="volver" href="index.php">Ir a inicio</a>
     </main>
 </body>
 </html>
