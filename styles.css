@@ -100,6 +100,51 @@ main #divIndex ul li a {
 	background-color: var(--first-background);
 }
 
+main div .lblCif {
+	font-size: 3rem;
+	font-weight: bold;
+	color: var(--footer);
+}
+
+main div .areasCif {
+	/*display: flex;*/
+	margin: auto;
+	width: 60%;
+	font-size: 3.2rem;
+	border: 2px solid var(--just-white);
+	border-radius: 15px;
+	color: var(--lbl-input);
+	background-color: var(--first-background);
+}
+
+main div .areasCif:focus-visible {     
+	outline: 2px solid var(--lbl-input);
+}
+
+main div .actbtn {
+	margin: 20px auto 20px auto;
+	width: 100px;
+	font-size: 2.6rem;
+	font-weight: bold;
+	/*padding: 5px;*/
+	border: 2px solid var(--lbl-input);
+	border-radius: 40px;
+	background-color: var(--first-background);
+	color: var(--just-white);
+}
+
+.volver {
+	width: 90px;                      
+	margin: 10px auto 5px auto;
+	text-decoration: none;
+	font-size: 1.7rem;
+	font-weight: bold;
+	border: 2px solid var(--lbl-input);
+	border-radius: 45px;
+	color: var(--footer);
+	background-color: var(--first-background);
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
