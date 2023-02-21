@@ -24,5 +24,6 @@
         <br />
         <a class="volver" href="index.php">Ir a inicio</a>
     </main>
+    <footer><p>by azazel</p></footer>
 </body>
 </html>
