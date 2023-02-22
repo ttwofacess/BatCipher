@@ -10,7 +10,7 @@
 <body>
     <header><h1>Cifrar un mensaje</h1></header>
     <main>
-        <form action="#">
+        <form method="POST" action="cifrando.php">
         <div>
             <label for="msgToCif" class="lblCif">Ingrese su mensaje</label>
             <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="3" required autofocus></textarea>
