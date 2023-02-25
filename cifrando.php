@@ -1,3 +1,5 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,15 +12,21 @@
 <body>
     <header><h1>Cifrar un mensaje</h1></header>
     <main>
-        <form method="POST" action="cifrando.php">
+        <form method="POST" action="cifrando_exec.php">
         <div>
             <label for="msgToCif" class="lblCif">Ingrese su mensaje</label>
-            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="10" cols="10" rows="3" required autofocus></textarea>
+            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="100" cols="10" rows="3" required autofocus></textarea>
 
             <input type="submit" class="actbtn" value="Cifrar">
 
             <label for="msgToDes" class="lblCif">Mensaje cifrado</label>
-            <textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="3"></textarea>
+            <?php
+            $txtar = '<textarea name="msgToDes" id="msgToDes" class="areasCif" maxlength="10" cols="10" rows="3" readonly>';
+            $txtar .= "$_SESSION[msgToDes]";
+            $txtar .= '</textarea>';
+            echo $txtar;
+            $_SESSION[msgToDes] = "";   
+            ?>
         </div>
         </form>
         <br />
