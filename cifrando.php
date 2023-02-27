@@ -1,4 +1,11 @@
-<?php session_start(); ?>
+<?php session_start(); 
+
+if ($_SESSION[auth] != 'si')
+{
+	header('Location: index.php');
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
