@@ -17,7 +17,7 @@ $_SESSION['auth']='si';
         <div class="divsBordeVisible" id="divIndex" >
             <ul>
                 <li><a href="cifrando.php">Cifrar</a></li>
-                <li><a href="#">Descifrar</a></li>
+                <li><a href="descifrando.php">Descifrar</a></li>
             </ul>
         </div>
     </main>
