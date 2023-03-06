@@ -19,7 +19,7 @@ if ($_SESSION[auth] != 'si')
 <body>
     <header><h1>Descifrar un mensaje</h1></header>
     <main>
-        <form method="POST" action="#">
+        <form method="POST" action="descifrando_exec.php">
         <div>
             <label for="toDes" class="lblCif">Ingrese su mensaje</label>
             <textarea name="toDes" id="toDes" class="areasCif" maxlength="100" cols="10" rows="3" require autofocus></textarea>
@@ -27,6 +27,14 @@ if ($_SESSION[auth] != 'si')
             <input type="submit" class="actbtn" value="Descifrar">
 
             <label for="toShow" class="lblCif">Mensaje descifrado</label>
+
+            <?php
+            $txtarD = '<textarea name="toShow" id="toShow" class="areasCif" maxlength="10" cols="10" rows="3" readonly>';
+            $txtarD .= "$_SESSION[toShow]";
+            $txtarD .= '</textarea>';
+            echo $txtarD;
+            $_SESSION[toShow] = "";
+            ?>
         </div>
         </form>
         <br />
