@@ -2,6 +2,11 @@
 
     session_start();
 
+    if ($_SESSION[auth] != 'si')
+    {
+	    header('Location: index.php');
+    }
+
     $codigo;
     $cadena_codigo = "murcielago";
     $cod_elem = strlen($cadena_codigo);

@@ -24,7 +24,7 @@ if ($_SESSION[auth] != 'si')
         <form method="POST" action="cifrando_exec.php">
         <div>
             <label for="msgToCif" class="lblCif">Ingrese su mensaje</label>
-            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="100" cols="10" rows="3" required autofocus></textarea>
+            <textarea name="msgToCif" id="msgToCif" class="areasCif" maxlength="500" cols="10" rows="3" required autofocus></textarea>
 
             <input type="submit" class="actbtn" value="Cifrar">
 

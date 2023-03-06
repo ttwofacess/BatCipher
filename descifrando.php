@@ -22,7 +22,7 @@ if ($_SESSION[auth] != 'si')
         <form method="POST" action="descifrando_exec.php">
         <div>
             <label for="toDes" class="lblCif">Ingrese su mensaje</label>
-            <textarea name="toDes" id="toDes" class="areasCif" maxlength="100" cols="10" rows="3" require autofocus></textarea>
+            <textarea name="toDes" id="toDes" class="areasCif" maxlength="500" cols="10" rows="3" require autofocus></textarea>
 
             <input type="submit" class="actbtn" value="Descifrar">
 
