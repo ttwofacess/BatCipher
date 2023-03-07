@@ -34,7 +34,7 @@ if ($_SESSION['auth'] != 'si')
             $txtar .= "$_SESSION[msgToDes]";
             $txtar .= '</textarea>';
             echo $txtar;
-            $_SESSION[msgToDes] = "";   
+            $_SESSION['msgToDes'] = "";   
             ?>
         </div>
         </form>
