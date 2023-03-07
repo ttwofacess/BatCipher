@@ -2,7 +2,7 @@
 
     session_start();
 
-    if ($_SESSION[auth] != 'si')
+    if ($_SESSION['auth'] != 'si')
     {
 	    header('Location: index.php');
     }
@@ -15,9 +15,9 @@
         $codigo[$i] = $cadena_codigo[$i];
     }
 
-    if ($_POST[msgToCif])
+    if ($_POST['msgToCif'])
     {
-        $cadena = $_POST[msgToCif];
+        $cadena = $_POST['msgToCif'];
         //$cad_elem = strlen($cadena);
         
         //for ($i=0; $i<$cad_elem;$i++)
@@ -34,7 +34,7 @@
             }
         }
 
-        $_SESSION[msgToDes] = $cadena;
+        $_SESSION['msgToDes'] = $cadena;
         header('Location: cifrando.php');
     } 
     else 
