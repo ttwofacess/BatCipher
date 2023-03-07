@@ -2,7 +2,7 @@
 
 session_start();
 
-if ($_SESSION[auth] != 'si')
+if ($_SESSION['auth'] != 'si')
 {
 	header('Location: index.php');
 }
@@ -16,9 +16,9 @@ for ($i=0; $i<$cod_elem; $i++)
     $codigo[$i] = $cadena_codigo[$i];
 }
 
-if ($_POST[toDes])
+if ($_POST['toDes'])
 {
-    $cadenaC = $_POST[toDes];
+    $cadenaC = $_POST['toDes'];
 
     for ($i=0; $i<$cod_elem; $i++)
     {
@@ -33,7 +33,7 @@ if ($_POST[toDes])
         }
     }
 
-    $_SESSION[toShow] = $cadenaC;
+    $_SESSION['toShow'] = $cadenaC;
     header('Location: descifrando.php');
 }
 else 
