@@ -1,6 +1,6 @@
 <?php session_start();
 
-if ($_SESSION[auth] != 'si')
+if ($_SESSION['auth'] != 'si')
 {
     header('Location: index.php');
 }
