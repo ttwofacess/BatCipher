@@ -33,7 +33,7 @@ if ($_SESSION['auth'] != 'si')
             $txtarD .= "$_SESSION[toShow]";
             $txtarD .= '</textarea>';
             echo $txtarD;
-            $_SESSION[toShow] = "";
+            $_SESSION['toShow'] = "";
             ?>
         </div>
         </form>
