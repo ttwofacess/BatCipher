@@ -16,9 +16,9 @@ for ($i=0; $i<$cod_elem; $i++)
     $codigo[$i] = $cadena_codigo[$i];
 }
 
-if ($_POST['toDes'])
+if ($_REQUEST['toDes'])
 {
-    $cadenaC = $_POST['toDes'];
+    $cadenaC = $_REQUEST['toDes'];
 
     for ($i=0; $i<$cod_elem; $i++)
     {
